@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Moon Framework for FREE CRM Application Test Suite ]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="planet.moon.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Free CRM App Test Cases(failed)" verbose="0">
+    <classes>
+      <class name="planet.moon.testcase.HmTest">
+        <methods>
+          <include name="preTest"/>
+          <include name="tearDown"/>
+          <include name="validateLoggedInUserNameTest"/>
+        </methods>
+      </class> <!-- planet.moon.testcase.HmTest -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [Moon Framework for FREE CRM Application Test Suite ] -->

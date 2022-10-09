@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Moon Framework for FREE CRM Application Test Suite " duration-ms="112606" started-at="2022-09-25T04:06:05Z" finished-at="2022-09-25T04:07:57Z">
+    <groups>
+    </groups>
+    <test name="Free CRM App Test Cases" duration-ms="112606" started-at="2022-09-25T04:06:05Z" finished-at="2022-09-25T04:07:57Z">
+      <class name="planet.moon.testcase.CntctTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:planet.moon.testcase.CntctTest@37918c79]" name="setup" is-config="true" duration-ms="6656" started-at="2022-09-25T09:36:53Z" finished-at="2022-09-25T09:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createContact(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:planet.moon.testcase.CntctTest@37918c79]" name="createContact" duration-ms="14425" started-at="2022-09-25T09:37:00Z" data-provider="getCRMTestData" finished-at="2022-09-25T09:37:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Peter2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tom@google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:planet.moon.testcase.CntctTest@37918c79]" name="tearDown" is-config="true" duration-ms="121" started-at="2022-09-25T09:37:14Z" finished-at="2022-09-25T09:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:planet.moon.testcase.CntctTest@37918c79]" name="setup" is-config="true" duration-ms="8166" started-at="2022-09-25T09:37:14Z" finished-at="2022-09-25T09:37:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createContact(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:planet.moon.testcase.CntctTest@37918c79]" name="createContact" duration-ms="13991" started-at="2022-09-25T09:37:23Z" data-provider="getCRMTestData" finished-at="2022-09-25T09:37:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[David2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cris2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[david@amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:planet.moon.testcase.CntctTest@37918c79]" name="tearDown" is-config="true" duration-ms="125" started-at="2022-09-25T09:37:37Z" finished-at="2022-09-25T09:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:planet.moon.testcase.CntctTest@37918c79]" name="setup" is-config="true" duration-ms="7375" started-at="2022-09-25T09:37:37Z" finished-at="2022-09-25T09:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createContact(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:planet.moon.testcase.CntctTest@37918c79]" name="createContact" duration-ms="13208" started-at="2022-09-25T09:37:44Z" data-provider="getCRMTestData" finished-at="2022-09-25T09:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Marry2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Com2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[marry@hcl.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:planet.moon.testcase.CntctTest@37918c79]" name="tearDown" is-config="true" duration-ms="153" started-at="2022-09-25T09:37:57Z" finished-at="2022-09-25T09:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- planet.moon.testcase.CntctTest -->
+      <class name="planet.moon.testcase.HmTest">
+        <test-method status="PASS" signature="preTest()[pri:0, instance:planet.moon.testcase.HmTest@38c5cc4c]" name="preTest" is-config="true" duration-ms="11426" started-at="2022-09-25T09:36:27Z" finished-at="2022-09-25T09:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="validateHomePageTitleTest()[pri:3, instance:planet.moon.testcase.HmTest@38c5cc4c]" name="validateHomePageTitleTest" duration-ms="8" started-at="2022-09-25T09:36:38Z" finished-at="2022-09-25T09:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:planet.moon.testcase.HmTest@38c5cc4c]" name="tearDown" is-config="true" duration-ms="232" started-at="2022-09-25T09:36:38Z" finished-at="2022-09-25T09:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="preTest()[pri:0, instance:planet.moon.testcase.HmTest@38c5cc4c]" name="preTest" is-config="true" duration-ms="11585" started-at="2022-09-25T09:36:39Z" finished-at="2022-09-25T09:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="validateLoggedInUserNameTest()[pri:4, instance:planet.moon.testcase.HmTest@38c5cc4c]" name="validateLoggedInUserNameTest" duration-ms="1719" started-at="2022-09-25T09:36:50Z" finished-at="2022-09-25T09:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoggedInUserNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:planet.moon.testcase.HmTest@38c5cc4c]" name="tearDown" is-config="true" duration-ms="174" started-at="2022-09-25T09:36:52Z" finished-at="2022-09-25T09:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- planet.moon.testcase.HmTest -->
+      <class name="planet.moon.testcase.LgnTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:planet.moon.testcase.LgnTest@223f3642]" name="setup" is-config="true" duration-ms="8456" started-at="2022-09-25T09:36:05Z" finished-at="2022-09-25T09:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:planet.moon.testcase.LgnTest@223f3642]" name="loginPageTitleTest" duration-ms="18" started-at="2022-09-25T09:36:13Z" finished-at="2022-09-25T09:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:planet.moon.testcase.LgnTest@223f3642]" name="tearDown" is-config="true" duration-ms="368" started-at="2022-09-25T09:36:13Z" finished-at="2022-09-25T09:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:planet.moon.testcase.LgnTest@223f3642]" name="setup" is-config="true" duration-ms="4664" started-at="2022-09-25T09:36:14Z" finished-at="2022-09-25T09:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:planet.moon.testcase.LgnTest@223f3642]" name="loginTest" duration-ms="8528" started-at="2022-09-25T09:36:18Z" finished-at="2022-09-25T09:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:planet.moon.testcase.LgnTest@223f3642]" name="tearDown" is-config="true" duration-ms="166" started-at="2022-09-25T09:36:27Z" finished-at="2022-09-25T09:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- planet.moon.testcase.LgnTest -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- Moon Framework for FREE CRM Application Test Suite  -->
+</testng-results>

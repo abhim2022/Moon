@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Moon Framework for FREE CRM Application Test Suite ">
+
+<listeners>
+<listener class-name="planet.moon.ExtentReportListener.ExtentReporterNG"></listener>
+</listeners>
+
+
+
+  <test thread-count="5" name="Free CRM App Test Cases">
+    <classes>
+      <class name="planet.moon.testcase.LgnTest"/>
+      <class name="planet.moon.testcase.HmTest"/>
+      <class name="planet.moon.testcase.CntctTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
